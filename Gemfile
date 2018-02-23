@@ -33,6 +33,8 @@ group :development, :test do
   gem 'spring', '2.0.2'
 end
 
+gem "rubocop", "~> 0.47", group: :development, require: false
+
 group :production do
   gem 'pg', '1.0.0'
   gem 'rails_12factor', '0.0.3'
