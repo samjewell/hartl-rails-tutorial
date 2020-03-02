@@ -33,7 +33,7 @@ group :development, :test do
   gem 'spring', '2.0.2'
 end
 
-gem "rubocop", "~> 0.54", group: :development, require: false
+gem "rubocop", "~> 0.80", group: :development, require: false
 
 group :production do
   gem 'pg', '1.0.0'
